@@ -9,5 +9,4 @@ There was a need for an easy way to create small printable leaflets (names, imag
 * [A WYSIWYG editor](https://github.com/PekkaAstala/Messukone/blob/master/editor-screenshot.png) for bird specific information
 * A "Print" button and some AngularJS, Canvas and CSS magic to produce end results like [this](https://github.com/PekkaAstala/Messukone/blob/master/example-result.pdf)
 
-
-
+Some pictures of the leaflets in use [here](https://www.flickr.com/photos/jtuutti/5631708544/in/album-72157626400253935/) and [here](https://www.flickr.com/photos/jtuutti/5631708068/in/album-72157626400253935/) in PetExpo 2011
