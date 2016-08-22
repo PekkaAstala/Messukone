@@ -1,0 +1,19 @@
+{
+  "name": "messukone",
+  "version": "1.0.0",
+  "description": "Lemmikkilinnut Kaijuli Ry:n työkalu messukylttien generointiin",
+  "authors": [
+    "Pekka Astala"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  "angular-ui-tinymce": "latest"
+  }
+}

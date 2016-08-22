@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" ng-app="myApp" ng-controller="MainCtrl">
+<head>
+  <meta charset="utf-8">
+  <title>Lappukone | Kaijuli &copy; Pekka Astala</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="/~messukone/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/~messukone/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/~messukone/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/~messukone/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/~messukone/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/~messukone/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/~messukone/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/~messukone/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/~messukone/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/~messukone/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/~messukone/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/~messukone/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/~messukone/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/~messukone/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/~messukone/manifest.json">
+<link rel="shortcut icon" href="/~messukone/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/~messukone/mstile-144x144.png">
+<meta name="msapplication-config" content="/~messukone/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+  <div class="editArea">
+
+    <h1>Muokkaa tietoja</h1>
+    
+    <label for="species-input">Linnun laji</label>
+    <select
+        id="species-input"
+        ng-model="currentBirdIndex"
+        ng-options="species.indexOf(specie) as specie.finnish for specie in species">
+    </select>
+    
+    <label for="name-input">Linnun nimi</label>
+    <input id="name-input" ng-model="editData.name" />
+
+    <textarea ui-tinymce="{menubar: false, statusbar: false, toolbar: 'fontsizeselect image | forecolor  backcolor | table', plugins: 'table textcolor image', trusted: true}" ng-model="editData.factsTinyMCE" ng-change="updateHtml()"></textarea>
+
+    <img src="img/print.png" onclick="window.print();" class="printButton" />
+  </div>
+
+
+  <div class="printArea">
+    <canvas id="bgCanvas" width="1120" height="800"></canvas>
+
+    <div class="name">{{ editData.name }}</div>
+    <div class="species">
+      <div class="finnish">{{ species[currentBirdIndex].finnish || 'Linnun laji' }}</div>
+      <div class="latin">{{ species[currentBirdIndex].latin || 'Tieteellinen nimi' }}</div>
+    </div>
+
+    <div class="photo">
+      <img class="left" src="img/left.png" ng-click="left()" />
+      <img class="right" src="img/right.png" ng-click="right()" />
+
+      <img class="birdPhoto" ng-src="{{ species[currentBirdIndex].photo }}" />
+    </div>
+
+    <div class="facts" ng-bind-html="editData.facts"></div>
+
+    <div class="kaijuli">Lemmikkilinnut KAIJULI ry <img src="img/kaijuli.gif" /></div>
+  </div>
+
+  <script type="text/javascript" src="bower_components/tinymce-dist/tinymce.js"></script>
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-tinymce/src/tinymce.js"></script>
+  
+  <script src="js/paintCanvasBg.js"></script>
+  
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+</body>
+</html>
