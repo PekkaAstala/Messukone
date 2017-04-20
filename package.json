@@ -1,0 +1,26 @@
+{
+  "name": "Messukone",
+  "version": "1.0.0",
+  "description": "Web app for creating small printable parrot leaflets",
+  "main": "data.js",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "scripts": {
+    "start": "node web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PekkaAstala/Messukone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PekkaAstala/Messukone/issues"
+  },
+  "homepage": "https://github.com/PekkaAstala/Messukone#readme",
+  "dependencies": {
+    "express": "4.15.2"
+  }
+}
