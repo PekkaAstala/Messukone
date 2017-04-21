@@ -54,6 +54,11 @@
         "latin": "Pyrrhura frontalis",
         "photo": "img/birds/riograndenaratti.png"
     },
+    { 
+        "finnish": "Ruusukakadu",
+        "latin": "Eolophus roseicapilla",
+        "photo": "img/birds/ruusukakadu.png"
+    },
     {
         "finnish": "Somaliankaija",
         "latin": "Poicephalus rufiventris",
