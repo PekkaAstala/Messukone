@@ -50,6 +50,11 @@
         "photo": "img/birds/pikkuara.png"
     },
     { 
+        "finnish": "Puna-ara",
+        "latin": "Ara macao",
+        "photo": "img/birds/puna-ara.png"
+    },
+    { 
         "finnish": "Riograndenaratti",
         "latin": "Pyrrhura frontalis",
         "photo": "img/birds/riograndenaratti.png"
@@ -58,6 +63,11 @@
         "finnish": "Ruusukakadu",
         "latin": "Eolophus roseicapilla",
         "photo": "img/birds/ruusukakadu.png"
+    },
+    {
+        "finnish": "Sinikelta-ara",
+        "latin": "Ara ararauna",
+        "photo": "img/birds/sinikelta.png"
     },
     {
         "finnish": "Somaliankaija",
@@ -78,6 +88,11 @@
         "finnish": "Valkovatsa-aratti",
         "latin": "Pionites leucogaster xanthomeria",
         "photo": "img/birds/valkovatsa-aratti.png"
+    },
+    { 
+        "finnish": "Vihersiipiara",
+        "latin": "Ara chloropterus",
+        "photo": "img/birds/vihersiipi.png"
     },
     {
         "finnish": " ",
