@@ -2,9 +2,9 @@
   "name": "Messukone",
   "version": "1.0.0",
   "description": "Web app for creating small printable parrot leaflets",
-  "main": "data.js",
+  "main": "app.js",
   "engines": {
-    "node": "6.2.0"
+    "node": "10"
   },
   "scripts": {
     "start": "node server.js"
