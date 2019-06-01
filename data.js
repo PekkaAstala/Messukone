@@ -39,27 +39,32 @@
         "latin": "Cacatua moluccensis",
         "photo": "img/birds/linnut-molukkienkakadu.png"
     },
-    { 
+    {
+        "finnish": "Paimenruohokaija",
+        "latin": "Neophema bourkii",
+        "photo": "img/birds/paimenruohokaija.png"
+    },
+    {
         "finnish": "Persikka-aratti",
         "latin": "Aratinga aurea",
         "photo": "img/birds/persikka-aratti.png"
     },
-    { 
+    {
         "finnish": "Pikkuara",
         "latin": "Diopsittaca nobilis",
         "photo": "img/birds/pikkuara.png"
     },
-    { 
+    {
         "finnish": "Puna-ara",
         "latin": "Ara macao",
         "photo": "img/birds/puna-ara.png"
     },
-    { 
+    {
         "finnish": "Riograndenaratti",
         "latin": "Pyrrhura frontalis",
         "photo": "img/birds/riograndenaratti.png"
     },
-    { 
+    {
         "finnish": "Ruusukakadu",
         "latin": "Eolophus roseicapilla",
         "photo": "img/birds/ruusukakadu.png"
@@ -74,22 +79,22 @@
         "latin": "Poicephalus rufiventris",
         "photo": "img/birds/somaliankaija.png"
     },
-    { 
+    {
         "finnish": "Undulaatti",
         "latin": "Melopsittacus undulatus",
         "photo": "img/birds/undulaatti-sininen.png"
     },
-    { 
+    {
         "finnish": "Undulaatti",
         "latin": "Melopsittacus undulatus",
         "photo": "img/birds/undulaatti-vihrea.png"
     },
-    { 
+    {
         "finnish": "Valkovatsa-aratti",
         "latin": "Pionites leucogaster xanthomeria",
         "photo": "img/birds/valkovatsa-aratti.png"
     },
-    { 
+    {
         "finnish": "Vihersiipiara",
         "latin": "Ara chloropterus",
         "photo": "img/birds/vihersiipi.png"
