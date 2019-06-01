@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/PekkaAstala/Messukone#readme",
   "dependencies": {
-    "express": "4.15.2",
+    "express": "^4.17.1",
     "node-static": "^0.7.9"
   }
 }
