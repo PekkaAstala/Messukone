@@ -70,6 +70,11 @@
         "photo": "img/birds/ruusukakadu.png"
     },
     {
+        "finnish": "Salomoninkakadu",
+        "latin": "Cacatua ducorpsii",
+        "photo": "img/birds/salomoninkakadu.png"
+    },
+    {
         "finnish": "Sinikelta-ara",
         "latin": "Ara ararauna",
         "photo": "img/birds/sinikelta.png"
