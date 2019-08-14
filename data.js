@@ -5,6 +5,11 @@
         "photo": "img/birds/afrikankaija.png"
     },
     {
+        "finnish": "Araukaria-aratti",
+        "latin": "Pyrrhura frontalis",
+        "photo": "img/birds/riograndenaratti.png"
+    },
+    {
         "finnish": "Avoparikaija",
         "latin": "Eclectus roratus",
         "photo": "img/birds/avokoiras.png"
@@ -83,11 +88,6 @@
         "finnish": "Puna-ara",
         "latin": "Ara macao",
         "photo": "img/birds/puna-ara.png"
-    },
-    {
-        "finnish": "Araukaria-aratti",
-        "latin": "Pyrrhura frontalis",
-        "photo": "img/birds/riograndenaratti.png"
     },
     {
         "finnish": "Ruusukakadu",
