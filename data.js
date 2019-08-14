@@ -40,6 +40,31 @@
         "photo": "img/birds/linnut-molukkienkakadu.png"
     },
     {
+        "finnish": "Neitokakadu",
+        "latin": "Nymphicus hollandicus",
+        "photo": "img/birds/linnut-neitokakadu.png"
+    },
+    {
+        "finnish": "Neitokakadu",
+        "latin": "Nymphicus hollandicus",
+        "photo": "img/birds/neitokakadu-harlekiini.png"
+    },
+    {
+        "finnish": "Neitokakadu",
+        "latin": "Nymphicus hollandicus",
+        "photo": "img/birds/neitokakadu-hopea-vk.png"
+    },
+    {
+        "finnish": "Neitokakadu",
+        "latin": "Nymphicus hollandicus",
+        "photo": "img/birds/neitokakadu-vaalea.png"
+    },
+    {
+        "finnish": "Neitokakadu",
+        "latin": "Nymphicus hollandicus",
+        "photo": "img/birds/neitokakadu-valkokasvokoiras.png"
+    },
+    {
         "finnish": "Paimenruohokaija",
         "latin": "Neophema bourkii",
         "photo": "img/birds/paimenruohokaija.png"
@@ -60,7 +85,7 @@
         "photo": "img/birds/puna-ara.png"
     },
     {
-        "finnish": "Riograndenaratti",
+        "finnish": "Araukaria-aratti",
         "latin": "Pyrrhura frontalis",
         "photo": "img/birds/riograndenaratti.png"
     },
