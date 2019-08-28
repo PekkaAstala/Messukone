@@ -1,3 +1,3 @@
-'use strict';
+"use strict";
 
-angular.module('myApp', ['myApp.controllers', 'ui.tinymce']);
+angular.module("myApp", ["myApp.controllers", "ui.tinymce"]);
