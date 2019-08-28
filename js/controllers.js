@@ -11,7 +11,7 @@ angular.module("myApp.controllers", []).controller("MainCtrl", [
       scope.editData.facts = sce.trustAsHtml(scope.editData.factsTinyMCE);
     };
 
-    http.get("data.js").success(function(data) {
+    http.get("data.json").success(function(data) {
       scope.editData = {
         name: "Linnun nimi",
         factsTinyMCE:
