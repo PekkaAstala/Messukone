@@ -120,6 +120,11 @@
     photo: "img/birds/undulaatti-vihrea.png"
   },
   {
+    finnish: "Valkokakadu",
+    latin: "Cacatua alba",
+    photo: "img/birds/valkkari.png"
+  },
+  {
     finnish: "Valkovatsa-aratti",
     latin: "Pionites leucogaster xanthomeria",
     photo: "img/birds/valkovatsa-aratti.png"
